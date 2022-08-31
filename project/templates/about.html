@@ -1,0 +1,113 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Freelancer - Start Bootstrap Theme
+        </title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'styles.css' %}" rel="stylesheet" />
+        
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Career Predictor</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'login' %}">Login</a></li>
+                      <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'about' %}">About</a></li>
+                      <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'profile' %}">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            
+                
+                <!-- Masthead Heading-->
+                <h3 class=" text-uppercase mb-0">About</h3>
+               <br>
+                <div class="desc"><p class="text-black fw-bold">As students are going through academics and pursuing their interested course, often they find themselves confused. This system helps students to find a career for them by assessing their areas of interest.</p></div>
+                <br>
+                <div class="d-flex justify-content-evenly">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'media/img/portfolio/pfp1.jpg' %}" alt="Card image cap" height="220">
+                    <div class="card-body">
+                      <h5 class="card-title text-black">Kavya Bhalodia</h5>
+                      <p class="card-text text-muted">An enthusiatic and motivated learner, with a keen interest in Web design and Web development.</p>
+                      
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'media/img/portfolio/pfp2.jpeg' %}" alt="Card image cap" height="220">
+                    <div class="card-body">
+                      <h5 class="card-title text-black">Kelvi Manavadaria</h5>
+                      <p class="card-text text-muted">An avid learner of cloud computing and web developer with leadership quality and management skills</p>
+                      
+                    </div>
+                  </div>
+                    
+                
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'media/img/portfolio/pfp3.jpg' %}" alt="Card image cap"height="220">
+                    <div class="card-body">
+                      <h5 class="card-title text-black">Pranav Savani</h5>
+                      <p class="card-text text-muted">Self motivated and passionate about learning new technolgy with leadership skills.</p>
+                      
+                    </div>
+                  </div>
+                    </div>
+                    <br><br>
+                    <div class="d-flex justify-content-evenly">
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{% static 'media/img/portfolio/pfp4.jpeg' %}" alt="Card image cap" height="220">
+                        <div class="card-body">
+                          <h5 class="card-title text-black">Ankur Kapuriya</h5>
+                          <p class="card-text text-muted">A Computer Engineering student with strong interest in Artificial Intelligence and Machine Learning .</p>
+                          
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="{% static 'media/img/portfolio/pfp5.jpg' %}" alt="Card image cap" height="220">
+                        <div class="card-body">
+                          <h5 class="card-title text-black">Princi Bhadaniya</h5>
+                          <p class="card-text text-muted">Highly interested in budding technologies and intrested in AI/ML development and pyhton programming.</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+                
+                  </div> 
+                </div>
+                
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
